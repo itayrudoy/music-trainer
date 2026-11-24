@@ -1,0 +1,24 @@
+.button {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border: none;
+  background: var(--color-panel);
+  color: var(--color-text);
+}
+
+.button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 16px;
+}

@@ -1,0 +1,17 @@
+.flash {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: var(--color-flash);
+  pointer-events: none;
+  animation: flash 700ms ease-out forwards;
+}
+
+@keyframes flash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

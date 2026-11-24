@@ -1,0 +1,32 @@
+.beats {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.beat {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-inactive);
+}
+
+.active {
+  background: var(--color-accent);
+  box-shadow: 0 0 0 8px var(--color-accent-soft);
+}
+
+@media (max-width: 600px) {
+  .beats {
+    gap: 18px;
+  }
+
+  .beat {
+    width: 30px;
+    height: 30px;
+  }
+
+  .active {
+    box-shadow: 0 0 0 7px var(--color-accent-soft);
+  }
+}

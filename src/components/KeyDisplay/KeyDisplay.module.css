@@ -1,0 +1,8 @@
+.key {
+  font-weight: 700;
+  font-size: clamp(140px, 22vw, 240px);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  white-space: nowrap;
+}
+

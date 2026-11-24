@@ -1,0 +1,7 @@
+/* Long presses on touch screens shouldn't select text or zoom. */
+.button {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}

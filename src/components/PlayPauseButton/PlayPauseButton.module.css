@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-surface);
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+}
+
+@media (max-width: 600px) {
+  .button {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}

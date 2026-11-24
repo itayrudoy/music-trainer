@@ -1,0 +1,38 @@
+.track {
+  position: relative;
+  flex: none;
+  width: 26px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 13px;
+  background: var(--color-switch-off);
+  transition: background-color 150ms ease;
+}
+
+.on {
+  background: var(--color-accent);
+}
+
+.knob {
+  position: absolute;
+  left: 3px;
+  top: 17px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-surface);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  transition: top 150ms ease;
+}
+
+.on .knob {
+  top: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track,
+  .knob {
+    transition: none;
+  }
+}
